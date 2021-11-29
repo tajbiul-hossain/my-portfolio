@@ -1,0 +1,38 @@
+.contact-section {
+  margin-bottom: 2rem;
+}
+.section-heading h2 {
+  padding-top: 1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.contact-section .form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #212529;
+  box-shadow: none;
+  padding-left: 0;
+}
+
+.contact-section label {
+  padding: 0;
+}
+
+.contact-section .btn.default-btn {
+  margin-top: 1rem;
+  background-color: #464b86;
+  color: #fff;
+  padding: 0.4rem 0.9rem;
+  float: left;
+  box-shadow: none;
+}
+
+.contact-section .contact-banner {
+  background-color: #464b86;
+  width: 300px;
+  padding: 3rem;
+}
+
+.modal .btn.default-btn {
+  box-shadow: none;
+}

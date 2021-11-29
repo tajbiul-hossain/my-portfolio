@@ -1,0 +1,66 @@
+.top-banner {
+  background-image: url(../../../images/banner.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-overlay {
+  position: relative;
+}
+
+.bg-overlay::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #000;
+  background: linear-gradient(to right, #000, #000);
+  opacity: 0.6;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  top: 38%;
+  z-index: 2;
+  color: white;
+  text-transform: capitalize;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: 0.15rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .resume-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+}

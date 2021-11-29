@@ -1,0 +1,51 @@
+.service {
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+
+.service:hover {
+  box-shadow: 0 10px 20px rgb(0 0 0 / 5%);
+}
+
+.service .service-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.service .service-img img {
+  width: 100%;
+  height: 25vh;
+}
+
+.service .service_info {
+  text-align: start;
+  padding: 27px 20px 25px 20px;
+}
+
+.service .service_info h3,
+.service .service_info h5 {
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.service:hover .service_info h3 {
+  color: #10d3c9;
+}
+
+.service .service_info p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #7a838b;
+  margin-top: 2px;
+  margin-bottom: 7px;
+}
+
+.service .btn.default-btn {
+  background-color: #464b86;
+  color: #fff;
+  box-shadow: none;
+  padding: 0.4rem 0.9rem;
+}
