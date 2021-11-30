@@ -38,6 +38,7 @@ export default function ScrollToTop() {
         bottom: "30px",
         right: "30px",
         cursor: "pointer",
+        zIndex: "2",
       }}
     >
       {isVisible && (
