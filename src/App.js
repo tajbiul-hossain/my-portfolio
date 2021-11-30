@@ -7,12 +7,14 @@ import Footer from "./pages/Footer/Footer";
 import Blog from "./pages/Blog/Blog";
 import Explore from "./pages/ExploreProject/Explore";
 import "./App.css";
+import ScrollToTop from "./pages/ScrollTop/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
+        <ScrollToTop />
         <Routes>
           <Route exact path="/" element={<Main />} />
           <Route path="/home" element={<Main />} />
