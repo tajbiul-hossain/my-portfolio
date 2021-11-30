@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-5 text-start">
-            <h4 className="name">About</h4>
+            <h4 className="name">TH</h4>
             <p>
               I am currently enrolled in a bachelor's degree in CSE at
               University of Chittagong, Bangladesh. As part of my study I have
