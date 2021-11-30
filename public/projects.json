@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "name": "Time Zone",
+    "images": [
+      "/project-images/Project-1/img-1.png",
+      "/project-images/Project-1/img-2.png",
+      "/project-images/Project-1/img-3.png",
+      "/project-images/Project-1/img-4.png",
+      "/project-images/Project-1/img-5.png",
+      "/project-images/Project-1/img-6.png",
+      "/project-images/Project-1/img-7.png",
+      "/project-images/Project-1/img-8.png"
+    ],
+    "short_desc": "An online watch store where you can buy any watch of your choice. See what clients are saying about the store and please give your valuable review.",
+    "live_site": "https://time-zone-watch.web.app/",
+    "client_link": "https://github.com/tajbiul-hossain/Time-Zone",
+    "server_link": "https://github.com/tajbiul-hossain/Time-Zone-Server",
+    "features": [
+      "Get the most comfortable watches from us",
+      "Join us and get the full functionality",
+      "Email & Google Authentication",
+      "Different user & admin functionalities",
+      "User can buy watches, cancel order before payment, give review",
+      "Admin can add product, remove existing products, manage all orders, make other user admin",
+      "Check out the website to see what it is about"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Travelo",
+    "images": [
+      "/project-images/Project-2/img-1.png",
+      "/project-images/Project-2/img-2.png",
+      "/project-images/Project-2/img-3.png",
+      "/project-images/Project-2/img-4.png",
+      "/project-images/Project-2/img-5.png"
+    ],
+    "short_desc": "An online travel agency where you can book any package of your choice. Connect with us to get the best time of your life from your next vacation.",
+    "live_site": "https://travelo-fb967.web.app/",
+    "client_link": "https://github.com/tajbiul-hossain/Travelo",
+    "server_link": "https://github.com/tajbiul-hossain/Travelo-Server",
+    "features": [
+      "We provide first class packages, where tourist’s comfort always comes first",
+      "We provide complete services from plane tickets to hotel booking and site seeing",
+      "Join us and get the full functionality",
+      "Email & Google Authentication",
+      "User can book any package of their choosing, cancel booking",
+      "User can also view bookings of other users and suggest us new packages",
+      "Check out the website to see what it is about"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dental Depot",
+    "images": [
+      "/project-images/Project-3/img-1.png",
+      "/project-images/Project-3/img-2.png",
+      "/project-images/Project-3/img-3.png",
+      "/project-images/Project-3/img-4.png"
+    ],
+    "short_desc": "An online dental health care service where you can book appointment with dentists. Connect with us to get the best treatment from your next visit.",
+    "live_site": "https://dental-depot-18253.web.app/",
+    "client_link": "https://github.com/tajbiul-hossain/Dental-Depot",
+    "server_link": "",
+    "features": [
+      "Quality dentistry, where patient’s well being always comes first",
+      "General and cosmetic dentistry services",
+      "Book an appointment with dentist",
+      "Cancel your booking anytime",
+      "Join us and get the full functionality",
+      "Email & Google Authentication",
+      "Check out the website to see what it is about"
+    ]
+  }
+]

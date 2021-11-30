@@ -38,13 +38,13 @@
   font-weight: 700;
   letter-spacing: 0.3rem;
   text-shadow: 0.1rem 0.1rem 0.8rem black;
-  padding-bottom: 1rem;
 }
 
-.caption h3 {
+.Typewriter span {
+  display: inline-block;
   font-size: 2rem;
   text-shadow: 0.1rem 0.1rem 0.5rem black;
-  padding-bottom: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 767px) {

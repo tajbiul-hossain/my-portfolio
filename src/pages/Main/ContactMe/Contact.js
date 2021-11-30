@@ -56,17 +56,17 @@ const Contact = () => {
   };
 
   return (
-    <div class="contact-section pt-5" id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mb-5">
-            <div class="section-heading text-center">
+    <div className="contact-section pt-5" id="contact">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12 mb-5">
+            <div className="section-heading text-center">
               <h2>Contact Me</h2>
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-7">
+        <div className="row justify-content-center">
+          <div className="col-md-7 me-2">
             <Form ref={form} onSubmit={sendEmail}>
               <Row className="mb-3">
                 <Form.Group as={Col} controlId="formGridEmail" className="ps-0">
@@ -114,7 +114,7 @@ const Contact = () => {
               <button className="btn default-btn">Send</button>
             </Form>
           </div>
-          <div className="col-md-4 contact-banner text-white text-start d-flex flex-column justify-content-center mx-auto">
+          <div className="col-md-4 contact-banner text-white text-start d-flex flex-column justify-content-center">
             <div className="mb-1">
               <h5 className="fw-bold">
                 <i className="fas fa-map-marker-alt me-2"></i>
@@ -124,14 +124,14 @@ const Contact = () => {
             </div>
             <div className="mb-1">
               <h5 className="fw-bold">
-                <i class="fas fa-phone-alt me-2"></i>
+                <i className="fas fa-phone-alt me-2"></i>
                 Phone
               </h5>
               <p className="fw-light">(+88) 01521-431550</p>
             </div>
             <div className="mb-1">
               <h5 className="fw-bold">
-                <i class="fas fa-envelope me-2"></i>
+                <i className="fas fa-envelope me-2"></i>
                 Email
               </h5>
               <p className="fw-light">tbh.nishat@gmail.com</p>

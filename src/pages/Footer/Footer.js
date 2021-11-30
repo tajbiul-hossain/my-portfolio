@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="social col-12 col-md-3 text-start ps-md-4">
-            <h6 className="text-capitalize">follow us</h6>
+            <h6 className="text-capitalize">follow me</h6>
             <p>let us be social</p>
             <div className="social-icons mt-4">
               <a

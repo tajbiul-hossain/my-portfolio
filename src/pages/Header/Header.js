@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Header.css";
 const Header = () => {
   return (
@@ -9,16 +11,19 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto custom-nav">
-            <Nav.Link href="#home">
+            <Nav.Link as={Link} to="/home">
               <span>Home</span>
             </Nav.Link>
-            <Nav.Link href="#footer">
+            <Nav.Link as={Link} to="/about">
               <span>About</span>
             </Nav.Link>
-            <Nav.Link href="#projects">
+            <Nav.Link as={HashLink} to="/home#projects">
               <span>Projects</span>
             </Nav.Link>
-            <Nav.Link href="#contact">
+            <Nav.Link as={Link} to="/blog">
+              <span>Blog</span>
+            </Nav.Link>
+            <Nav.Link as={HashLink} to="/home#contact">
               <span>Contact</span>
             </Nav.Link>
           </Nav>

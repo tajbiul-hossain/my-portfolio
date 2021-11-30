@@ -1,18 +1,21 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./Project.css";
 
-const Project = (props) => {
+const Project = ({ project }) => {
   return (
     <div className="service pb-3">
       <div className="service-img">
-        <img src={props.img} alt="" />
+        <img src={project.images[0]} alt="" />
       </div>
       <div className="service_info">
-        <h3>{props.name}</h3>
-        <p>{props.desc}</p>
+        <h3>{project.name}</h3>
+        <p>{project.short_desc}</p>
       </div>
       <div>
-        <button className="btn default-btn">See Details</button>
+        <NavLink as={Link} to={`/explore/${project.id}`}>
+          <button className="btn default-btn">See Details</button>
+        </NavLink>
       </div>
     </div>
   );

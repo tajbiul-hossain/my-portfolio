@@ -1,0 +1,57 @@
+.carousel-dark {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #464b86;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-dark .carousel-indicators {
+  margin-bottom: -2rem;
+}
+
+.carousel-dark .carousel-control-next-icon {
+  background-image: url("../../images/carousel-next.png");
+}
+
+.carousel-dark .carousel-control-prev-icon {
+  background-image: url("../../images/carousel-prev.png");
+}
+
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
+  filter: invert(0) grayscale(0);
+}
+
+.explore .btn.default-btn {
+  background-color: #464b86;
+  color: #fff;
+  box-shadow: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.explore ul li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: #464b86;
+  margin-right: 0.6rem;
+  line-height: 2rem;
+  content: "\f061";
+}
+
+@media only screen and (max-width: 991px) {
+  .carousel-dark {
+    width: 100%;
+  }
+}
