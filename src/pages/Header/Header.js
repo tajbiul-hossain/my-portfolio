@@ -8,7 +8,9 @@ const Header = () => {
     <Navbar expand="md" fixed="top">
       <Container>
         <Navbar.Brand className="logo">TH</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle>
+          <i className="fas fa-ellipsis-v"></i>
+        </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto custom-nav">
             <Nav.Link as={Link} to="/home">

@@ -4,9 +4,6 @@ import "./About.css";
 const About = () => {
   return (
     <div>
-      {/* <div className="about-head">
-        <h2 className="about-title">About</h2>
-      </div> */}
       <div className="container text-start pt-5">
         <h1 className="pb-3 pt-5 fw-normal">My Story</h1>
         <div className="w-75 mx-auto">
@@ -21,7 +18,7 @@ const About = () => {
             I create custom SPA websites to help people expand there businesses
             online. Give me any design and I will turn that into a beautiful
             interface. I also love coding and always try to write elegant and
-            eficient code whether it be C++, HTML, CSS, JavaScript or JQuery.
+            efficient code whether it be C++, HTML, CSS, JavaScript or JQuery.
             <br />
             <br />
             When I'm not developing a website or coding, you'll find me
@@ -29,10 +26,10 @@ const About = () => {
             lot.
             <br />
             <br />
-            I'm currently open to work and excited to continue refinig my skills
-            with the right company. If you are interested in using my skills as
-            a developer then contact me through my contact form or social medias
-            provided in the footer section.
+            I'm currently open to work and excited to continue refining my
+            skills with the right company. If you are interested in using my
+            skills as a developer then contact me through my contact form or
+            social medias provided in the footer section.
           </p>
         </div>
         <div className="row my-5">

@@ -32,7 +32,7 @@
 }
 
 .service:hover .service_info h3 {
-  color: #10d3c9;
+  color: #464b86;
 }
 
 .service .service_info p {
@@ -48,4 +48,15 @@
   color: #fff;
   box-shadow: none;
   padding: 0.4rem 0.9rem;
+}
+
+.service .btn.default-btn::before,
+.contact-section .btn.default-btn::before {
+  background-color: #fff;
+  border: 1px solid #464b86;
+}
+
+.service .btn.default-btn:hover,
+.contact-section .btn.default-btn:hover {
+  color: #000;
 }

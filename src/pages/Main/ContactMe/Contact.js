@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Col, FloatingLabel, Form, Modal, Row } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import "./Contact.css";
@@ -32,7 +32,7 @@ function MyVerticallyCenteredModal(props) {
 
 const Contact = () => {
   const form = useRef();
-  const [modalShow, setModalShow] = React.useState(false);
+  const [modalShow, setModalShow] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();

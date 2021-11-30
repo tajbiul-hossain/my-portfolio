@@ -64,7 +64,7 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #10d3c9;
+  background-color: #464b86;
   transform-origin: center bottom;
   transform: scaleY(0);
   transition: transform 0.25s ease-in-out;
